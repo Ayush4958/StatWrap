@@ -917,7 +917,7 @@ class Project extends Component<Props> {
           <TabPanel value="about" style={{ padding: '10px' }}>
             {about}
           </TabPanel>
-          <TabPanel value="assets" style={{ padding: '10px' }}>
+          <TabPanel value="assets" keepMounted style={{ padding: '10px' }}>
             {assets}
           </TabPanel>
           <TabPanel value="workflows" style={{ padding: '10px' }}>
